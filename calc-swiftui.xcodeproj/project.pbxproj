@@ -11,6 +11,7 @@
 		A9A85FC0255E926A005D3AE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A85FBF255E926A005D3AE2 /* ContentView.swift */; };
 		A9A85FC2255E926B005D3AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A85FC1255E926B005D3AE2 /* Assets.xcassets */; };
 		A9A85FC5255E926B005D3AE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A85FC4255E926B005D3AE2 /* Preview Assets.xcassets */; };
+		A9A85FCF255E941B005D3AE2 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A85FCE255E941B005D3AE2 /* Core.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A9A85FC1255E926B005D3AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A85FC4255E926B005D3AE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9A85FC6255E926B005D3AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A85FCE255E941B005D3AE2 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		A9A85FBC255E926A005D3AE2 /* calc-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				A9A85FCE255E941B005D3AE2 /* Core.swift */,
 				A9A85FBD255E926A005D3AE2 /* calc_swiftuiApp.swift */,
 				A9A85FBF255E926A005D3AE2 /* ContentView.swift */,
 				A9A85FC1255E926B005D3AE2 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A85FCF255E941B005D3AE2 /* Core.swift in Sources */,
 				A9A85FC0255E926A005D3AE2 /* ContentView.swift in Sources */,
 				A9A85FBE255E926A005D3AE2 /* calc_swiftuiApp.swift in Sources */,
 			);
