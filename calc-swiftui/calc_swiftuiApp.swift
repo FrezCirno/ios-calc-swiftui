@@ -11,13 +11,13 @@ import SwiftUI
 struct calc_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(CalculatorData())
         }
     }
 }
 
 struct calc_swiftuiApp_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(CalculatorData())
     }
 }
