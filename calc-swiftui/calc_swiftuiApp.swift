@@ -15,3 +15,9 @@ struct calc_swiftuiApp: App {
         }
     }
 }
+
+struct calc_swiftuiApp_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
